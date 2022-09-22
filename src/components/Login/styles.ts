@@ -55,7 +55,7 @@ export const Header = styled.header`
 
 
     >h1{
-        color: #333;
+        color: ${({ theme }) => theme.primary};
         font-size: 45px;
         margin-bottom: 80px;
     }

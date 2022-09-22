@@ -12,7 +12,7 @@ import Marilia from '../../assets/atracoes/Marilia.png';
 
 function HomeHero() {
   return (
-    <Container data-aos="fade-up">
+    <Container data-aos="zoom-in">
       
       <Image1 src={Marilia} alt="Marilia" />
       <Image3 src={GustavoLima} alt="Marilia" />

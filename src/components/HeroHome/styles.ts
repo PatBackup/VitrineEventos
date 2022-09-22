@@ -202,6 +202,11 @@ export const Image1 = styled.img`
     top: -2rem;
     left: 0rem;
   }
+
+  @media (max-width: 350px) {
+    top: -2rem;
+    left:-1rem;
+  }
 `;
 
 
@@ -237,6 +242,11 @@ export const Image2 = styled.img`
     left: 0rem;
   }
 
+  @media (max-width: 350px) {
+    top: -2rem;
+    left:-1rem;
+  }
+
 `;
 
 export const Image3 = styled.img`
@@ -269,6 +279,11 @@ export const Image3 = styled.img`
   @media (max-width: 479px) {
     top: -2rem;
     left: 0rem;
+  }
+
+  @media (max-width: 320px) {
+    top: -2rem;
+    left:-1rem;
   }
 
 `;

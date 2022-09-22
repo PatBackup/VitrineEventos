@@ -7,6 +7,7 @@ import HomeHero from '../components/HeroHome';
 import Patrocinios from '../components/Patrocinio';
 import Videos from '../components/Videos';
 import { HomeContainer } from '../styles/HomeStyles'
+import 'aos/dist/aos.css';
 
 export default function Home() {
   useEffect(() => {

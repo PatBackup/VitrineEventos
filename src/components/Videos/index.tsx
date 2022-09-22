@@ -16,7 +16,13 @@ interface ProjetosProps {
   projetos: IProjeto[];
 }
 
+
+
 function Videos({ projetos }: ProjetosProps) {
+  function handleRedirect(url) {
+    window.open(url);
+  }
+
   return (
     <Container>
       <SectionTitle title=""/>
@@ -36,12 +42,12 @@ function Videos({ projetos }: ProjetosProps) {
 
         <ProjetoItem
           img=""
-          title="Marcelinho dos Teclados "
+          title="Marcelinho"
           type="O ceresteiro da madrugada"
         />
       </section>
       <button type="button">
-        <Link href="/projetos">
+        <Link href="https://www.youtube.com">
           <a>Visite Nosso Canal</a>
         </Link>
       </button>

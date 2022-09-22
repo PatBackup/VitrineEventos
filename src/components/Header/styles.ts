@@ -10,7 +10,7 @@ export const Container = styled.header`
   display: fixed;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
+  height: 5rem;
   border-bottom: 1px solid ${({ theme }) => theme.primary};
 
   img{

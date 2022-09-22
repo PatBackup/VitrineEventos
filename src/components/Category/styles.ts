@@ -10,7 +10,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;   
   justify-content: space-between;
-  margin: 5rem 5rem ;
+  margin: 9rem 9rem ;
   gap: 7rem;
 
 
@@ -34,6 +34,11 @@ export const Container = styled.div`
       
     }
   }
+
+  @media (max-width: 1000px) {
+    margin: 5rem 5rem ;
+  }
+
 
   @media (max-width: 700px) {
 

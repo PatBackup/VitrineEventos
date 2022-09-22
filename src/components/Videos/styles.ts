@@ -11,7 +11,7 @@ export const Container = styled.section`
   margin-top: 40rem;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
 
   @media (max-width: 531px) {
     margin-top: 25rem;
@@ -161,6 +161,8 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   }
 
   @media (max-width: 1450px) {
+    margin-top: 18rem;
+
     > section {
       width: 40rem;
     }

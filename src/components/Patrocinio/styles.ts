@@ -23,7 +23,7 @@ export const Container = styled.section`
   }
 `;
 
-export const ConhecimentoContainer = styled.div`
+export const PatrocinioContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;

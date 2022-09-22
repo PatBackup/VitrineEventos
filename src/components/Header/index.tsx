@@ -14,7 +14,7 @@ function Header({ onOpen }) {
         <NavLink title="Chat" path="/Chat" includes />
       </ul>
       <div>
-        <NavLink title="Cadastro" path="/Cadastro" includes />
+        <NavLink title="Cadastro" path="/cadastro" includes />
         <NavLink title="Entre" path="/login" includes />   
       </div>
       <button type="button" onClick={onOpen}>

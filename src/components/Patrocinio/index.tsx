@@ -2,7 +2,7 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import SectionTitle from '../SectionTitle';
-import ConhecimentoItem from './ConhecimentoItem';
+import ConhecimentoItem from './PatrocinioItem';
 import { Container } from './styles';
 
 function Patrocinios() {
